@@ -1,0 +1,17 @@
+@import '../../styles/constants.scss';
+
+.doberman {
+  width: 187px;
+  height: 192px;
+  background-image: url('../../assets/images/doberman.png');
+  background-size: 187px 192px;
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+}
+
+@media screen and (max-width: $mobileBreackpoint) {
+  .doberman {
+    display: none;
+  }
+}

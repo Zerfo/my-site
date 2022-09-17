@@ -1,0 +1,15 @@
+@import '../../styles/constants.scss';
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 160px;
+}
+
+@media screen and (max-width: $mobileBreackpoint) {
+  .content {
+    margin: 0px;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,55 @@
+@import '../../styles/constants.scss';
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 32px 0px;
+
+  &_title {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+
+  &_text {
+    margin-bottom: 8px;
+    width: 600px;
+    text-align: center;
+    color: #000;
+
+    &:last-child {
+      margin: 0px;
+    }
+  }
+
+  &_link {
+    margin-left: 4px;
+    text-decoration: none;
+    color: #000;
+
+    &:hover {
+      border-bottom: 1px solid #000;
+    }
+  }
+}
+
+@media screen and (max-width: $mobileBreackpoint) {
+  .content {
+    margin: 16px 0px;
+
+    &_title {
+      font-size: 36px;
+    }
+
+    &_text {
+      width: 330px;
+      font-size: .8em;
+    }
+
+    &_link {
+      border-bottom: 1px solid #000;
+    }
+  }
+}

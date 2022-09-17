@@ -1,0 +1,7 @@
+.eslintrc
+.prettierrc
+.gitignore
+setupTests.ts
+reportWebVitals.ts
+react-app-env.d.ts
+jest.config.js
